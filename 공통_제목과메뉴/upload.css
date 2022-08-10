@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+.container {
+  padding: 40px;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.userId {
+  font-size: 2.0em;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.navBox {
+  display: flex;
+  justify-content: space-between;
+}
