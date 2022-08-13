@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="https://kit.fontawesome.com/1c941d1499.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="upload.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="navBox">
+      <div class="Logo">Dlstodsozjt</div>
+      <i class="fa-solid fa-bars fa-2x" id="drop"></i>
+                    <div class="dropdown">
+                        <i class="fa-solid fa-caret-left"></i>
+                        <li class="drop-box"><a href="" style="text-decoration: none; color:#fff">새 글 작성</a></li>
+                        <li class="drop-box"><a href="" style="text-decoration: none; color:#fff">마이페이지</a></li>
+                        <li class="drop-box"><a href="" style="text-decoration: none; color:#fff">사진관 찾기</a></li>
+                        <li class="drop-box"><a href="" style="text-decoration: none; color:#fff">이벤트</a></li>
+                    </div>
+    </div>
+    <form class="main">
+      <div class="uploadBtn_div">
+        <input class="uploadBtn" type="submit" value="게시">
+      </div>
+      <div class="uploadTitle_div">
+        <input class="uploadTitle" type="text" placeholder="제목"> 
+      </div>
+      <div class="uploadMenu">
+        <div class="menuDate" value="space" onclick="calendar()">
+          <i class="fa-solid fa-calendar-days fa-2x"></i>
+          <span class="menuDateLetter">날짜</span><input type="text" id="datepicker" autocomplete='off' size=6>
+        </div>
+        <div class="menuImg">
+          <i class="fa-solid fa-image fa-2x"></i>
+          <span class="menuImgLetter">이미지</span><input type="file" id="imgFile" accept="image/png, image/jpeg"><label for="imgFile">업로드</label>
+        </div>
+        <div class="menuPlace">
+          <i class="fa-solid fa-location-dot fa-2x"></i>
+          <span class="menuPlaceLetter">위치</span>
+        </div>
+        <div class="menuTag">
+          <i class="fa-solid fa-tag fa-2x"></i>
+          <span class="menuTagLetter">태그</span>
+        </div>
+      </div>
+      <div class="uploadTextarea_div">
+        <textarea class="uploadTextarea" placeholder="본문에 해쉬태그를 이용하여 태그를 사용해보세요! (최대 30개)"></textarea>
+      </div>
+    </form>
+  </div>
+  <script src="upload.js"></script>
+  <script src="/공통_제목과메뉴/drop.js"></script>
+</body>
+</html>
+
+
+
