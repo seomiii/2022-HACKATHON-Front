@@ -35,22 +35,23 @@ body{
     margin: 0 auto;
     padding: 0 40px 40px 40px;    
 }
-
-
-
 .contents{
-    border:2px solid black;
-    height:70vh;
-    /* background-color: #E0E06B; */
+    border:4px dashed rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 4px inset rgba(0, 0, 0, 0.15);
+    height:66vh;
     border-radius: 25px;   
     padding: 40px;
-    overflow: scroll;     
+    overflow-y: auto;  
+    overflow-x: hidden;   
 }
 .contents::-webkit-scrollbar { 
     display: none;
     width: 0 !important;
 }
 .contentsDiv{
+    display:grid; 
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-gap: 1em;
     /* background-color: aliceblue; */
 }
 
@@ -68,7 +69,7 @@ body{
 
     background-color: #6D70D7;
     border-radius: 37px;
-    border: 1px solid #000000;
+    border: 2px solid black;
     text-align:center;
     width:140px;
     padding:5px;
@@ -77,21 +78,19 @@ body{
 
 .imgDiv{
    /* background-color: #6D70D7; */
-   margin:10px;
+   height:150px;
+   margin:5px;
 }
 
 .imagetape{
     position:relative;
     z-index:2;
-    
-    /* top:-150px; */
-    /* background-color:yellow; */
-
 }
 
 .imgimg{
-    top:20px;
-    left:-20px;
-    position: relative;
-    z-index:1;    
+    z-index:1;   
+}
+.imgimg:hover{
+    transition: 0.2s;
+    transform : scale(1.05);
 }
