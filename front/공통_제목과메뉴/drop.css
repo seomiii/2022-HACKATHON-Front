@@ -1,37 +1,40 @@
 .dropdown{
     display: none;
-    position: absolute;
-    left: 820px;
-    top: 41px;
-
+    margin-left: 160px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
 .dropdown li{
-    background-color: #6D70D7;
-    border-radius: 15px;
-    border: 1px solid black;
+    background-color:none;
     text-align: center;
-    color: #fff;
     margin-bottom: 2px;
     list-style-type: none;
     width: 90px;
     padding: 3px;
     font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 17px;
+    line-height: 20px;
 }
 
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #FF4D00;
+}
 
 .dis{
     display: block;
 }
 
-.fa-caret-left{
+.fa-caret-down{
     font-size: 20px;
-    position: absolute;
     display: inline;
-    left: 105px;
-    top: 2px;
+    margin-left: 73px;
 }
