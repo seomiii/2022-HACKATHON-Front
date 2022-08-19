@@ -1,11 +1,26 @@
-@import '/front/공통_제목과메뉴/upload.css';
-@import '/front/공통_제목과메뉴/drop.css';
+@import '/공통_제목과메뉴/upload.css';
+@import '/공통_제목과메뉴/drop.css';
 
 img{
     margin-top: 10px;
     padding-left:18px;
     width: 180;
     height: 180px;
+}
+
+.Logo{
+        
+    font-size: 35px ;
+    font-style: italic;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin:0;
+    margin-bottom: 30px;
 }
 
 .adtitle{
