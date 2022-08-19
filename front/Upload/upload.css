@@ -9,6 +9,8 @@ body{
   background-color: #DFDDD8;
   width: 420px;
   margin: 0 auto;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .Logo {

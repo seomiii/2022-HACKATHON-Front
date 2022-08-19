@@ -1,0 +1,245 @@
+@import '/공통_제목과메뉴/drop.css';
+
+body{
+  margin: 0;
+  background-color: gray;
+}
+.container {
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.80);
+  width: 420px;
+  margin: 0 auto;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.fa-bars{
+  color:#FF4D00;
+}
+
+.Logo{
+  font-size: 35px ;
+  font-style: italic;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin:0;
+  margin-bottom: 30px;
+}
+
+.dropyear{
+  display: none;
+  margin-top: 0px;
+  margin-left: 280px;
+}
+
+.dropyear li{
+  background-color: none;
+  border-radius: 13px;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: center;
+  color: white;
+  margin-top: 7px;
+  list-style-type: none;
+  width: 100px;
+  padding: 3px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+
+.navBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page{
+  text-align: center;
+  margin-top: 1em;
+  
+}
+
+.dis2{
+  display: block;
+}
+
+#img{
+  border: solid white;
+  border-width: 1.5px;
+  border-radius: 50%;
+  background-color: white;
+  width: 6.3em;
+  height: 6.3em;
+  margin: auto;
+  position: relative;
+  top: 3em;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+.page-text{
+  margin-top: 4em;
+}
+
+.edit{
+  width: 370px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid white;
+  margin-left: 12px;
+  color: white;
+}
+label{
+  cursor: pointer;
+  font-size: 1em;
+}
+#chooseFile{
+  visibility: hidden;
+}
+.view{
+  border-radius: 3px;
+  height: 33px;
+  width: 33px;
+  border: solid white;
+  background-color: rgba(0, 0, 0, 0.80);
+}
+.ang{
+  font-size: 17px;
+  color: white;
+}
+.cam{
+  font-size: 27px;
+  margin-top: 1em;
+  margin-right: 13em;
+  color: white;
+}
+.pic-num{
+  margin-right: 17em;
+  margin-top: -1.5em;
+}
+.view-p{
+  margin-top: -2.5em;
+  margin-left: 13.5em;
+  color: #FF4D00;
+}
+.view-but{
+  margin-left: 22em;
+  margin-top: -2.5em;
+}
+
+.img-iu{
+  width: 10em;
+  height: 13em;
+}
+#p1{
+  font-size: 14px;
+}
+.date1{
+  border: solid white;
+  width: 10em;
+  margin-left: -2em;
+  height: 16em;
+  margin-top: 2.5em;
+}
+
+.img-iu2{
+  width: 10em;
+  height: 13em;
+}
+#p2{
+  font-size: 14px;
+}
+.date2{
+  border: solid white;
+  width: 10em;
+  height: 16em;
+  margin-left: 11em;
+  margin-top: -16.2em;
+}
+.img-1{
+  width: 10em;
+  height: 13em;
+}
+#p3{
+  font-size: 14px;
+}
+.date3{
+  border: solid white;
+  width: 10em;
+  height: 16em;
+  margin-left: -2em;
+  margin-top: 2.5em;
+}
+.img-2{
+  width: 10em;
+  height: 13em;
+}
+#p4{
+  font-size: 14px;
+}
+.date4{
+  border: solid white;
+  width: 10em;
+  height: 16em;
+  margin-left: 11em;
+  margin-top: -16.3em;
+}
+.img-3{
+  width: 10em;
+  height: 13em;
+}
+#p5{
+  font-size: 14px;
+}
+.date5{
+  border: solid white;
+  width: 10em;
+  height: 16em;
+  margin-left: -2em;
+  margin-top: 2.5em;
+}
+.img-4{
+  width: 10em;
+  height: 13em;
+}
+#p6{
+  font-size: 14px;
+}
+.date6{
+  border: solid white;
+  width: 10em;
+  height: 16em;
+  margin-left: 11em;
+  margin-top: -16.3em;
+}
+li{
+  list-style: none;
+}
+
+.view{
+  cursor: pointer;
+}
+
+.list li.is-hidden {
+  opacity: 0;
+  height: 0;
+  margin: 0;
+}
+
+.image-show{
+  margin-top: 3em;
+}
+
+p{
+  color: white;
+}
+b{
+  color: white;
+}
