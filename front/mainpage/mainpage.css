@@ -1,5 +1,45 @@
-@import '../공통_제목과메뉴/drop.css';
+/* @import '../공통_제목과메뉴/drop.css'; */
 
+.dropdown{
+    display: none;
+    margin-left: 160px;
+    margin-top: -10px;
+    /* margin-bottom: 20px; */
+}
+
+.dropdown li{
+    background-color:none;
+    text-align: center;
+    /* margin-bottom: 2px; */
+    list-style-type: none;
+    width: 90px;
+    padding: 3px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: #FF4D00;
+}
+
+.dis{
+    display: block;
+}
+
+.fa-caret-down{
+    font-size: 20px;
+    display: inline;
+    margin-left: 73px;
+}
 body{
     margin:0 auto;
 }
@@ -9,16 +49,21 @@ body{
     margin: 0 auto;
     width:420px;
 }
+
 .Logo {
     font-size: 2.0em;
-    font-family: "Lilita One";
-    font-style: normal;
-    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    font-style:Italic;
+    font-weight: 800;
     font-size: 35px;
     line-height: 40px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 1px black;
+    /* -webkit-text-stroke: 1px black; */
+}
+
+#drop{
+    color:#FF4D00;
 }
   
 .navBox {
@@ -31,11 +76,13 @@ body{
     height:84vh !important;
     background-color: #1E1E1E;
     margin: 0 auto;
-    padding: 0 40px 40px 40px;    
+    padding: 30px 40px 40px 40px; 
+    
 }
 
 .headerDiv{
    margin-left: 20px;
+   
 }
 .contents{
     /* border:4px dashed rgba(0, 0, 0, 0.75); */
@@ -44,7 +91,7 @@ body{
     border-radius: 25px;   
     padding: 40px;
     overflow-y: auto;  
-    overflow-x: hidden;   
+    overflow-x: hidden;  
 }
 .contents::-webkit-scrollbar { 
     display: none;
@@ -70,7 +117,7 @@ body{
     line-height: 20px;
 
     color:white;
-    -webkit-text-stroke: 1px black;
+    /* -webkit-text-stroke: 1px black; */
 
     background-color: #1E1E1E;
     
@@ -81,6 +128,8 @@ body{
     padding:5px;
     margin-left:30px;   
 }
+
+
 
 .imgDiv{
    /* background-color: #6D70D7; */
