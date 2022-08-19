@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main/mainpage.css">
-    <link href="https://fonts.googleapis.com/css?family=Monda:700" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/fc13d61e87.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates" rel="stylesheet">
+  <title></title>
+  <script src="https://kit.fontawesome.com/1c941d1499.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="mainpage.css">
+  
 </head>
 <body>
-    <div class="container">
-        <div class="navBox">
-            <div class="Logo">Dlstodsozjt</div>
-            <i class="fa-solid fa-bars fa-2x" id="drop"></i></div>
-                    <div class="dropdown">
-                    
-                        <li class="drop-box"><a href="" style="text-decoration: none;">새 글 작성</a></li>
-                        <li class="drop-box"><a href="" style="text-decoration: none;">마이페이지</a></li>
-                        <li class="drop-box"><a href="" style="text-decoration: none;">사진관 찾기</a></li>
-                        <li class="drop-box"><a href="" style="text-decoration: none;">이벤트</a></li>
-                    </div>
-        <div class="mainheader">MyCut</div>
+    <div class="container">    
 
-        <div class="contents">
-            <div id="slider">
-            <div class="image-box">
-                <img src="/main/1.png">
-                <img src="/main/2.png">
-                <img src="/main/7.png">
-                <img src="/main/8.png">
+      <div class="navBox">
+        <div class="Logo">Dlstodsozjt</div>
+        <li class="fa-solid fa-bars fa-2x" id="drop"></li>
+      </div>
+
+
+      <div>
+          <div class="dropdown">
+              
+              <li class="drop-box"><a href="" style="text-decoration: none;">새 글 작성</a></li>
+              <li class="drop-box"><a href="" style="text-decoration: none;">마이페이지</a></li>
+              <li class="drop-box"><a href="" style="text-decoration: none; ">사진관 찾기</a></li>
+              <li class="drop-box"><a href="" style="text-decoration: none;">이벤트</a></li>
+          </div>
+      </div>  
+    </div>    
+
+   
+
+    <div class="contentDiv">
+      <div class="headerDiv">
+        <div class="mainheader">my Cuts</div>
+      </div>      
+      
+      <div class="contents">
+        <div class="contentsDiv">
+          <!-- 사진 -->
+          <a href="">
+            <div class="imgDiv">
+              <img class="imgimg" src="./3.png">
             </div>
-        </div> 
-        
-        
+          </a>
+
+          <a href="">
+            <div class="imgDiv">            
+              <img class="imgimg" src="./2.png">            
+            </div>
+          </a>
+
+          <a href="">
+            <div class="imgDiv">
+              <img class="imgimg" src="./7.png">         
+            </div> 
+          </a>
+
+          <a href="">
+            <div class="imgDiv">
+              <img class="imgimg" src="./1.png">
+            </div> 
+          </a>
+
+          <a href="">
+            <div class="imgDiv"> 
+              <img class="imgimg" src="./8.png">
+            </div>     
+          </a>  
+  
+
+        </div>
+      </div>        
     </div>
-    </div>
-        <script src="/공통_제목과메뉴/drop.js"></script>
+
+
+    
+    <script>   
+    var imgimg=document.querySelectorAll('.imgimg');
+   
+    
+    for(var i=0; i<imgimg.length; i++){
+      var randomRotate=Math.floor((Math.random()*(10-1)+1)+3);
+      const item=imgimg.item(i);
+      if (i%2){
+        item.style.rotate= "-" + randomRotate + "deg";
+      }
+      else{
+      item.style.rotate= randomRotate + "deg";}
+    }  
+      
+    </script>
+    <script src="../공통_제목과메뉴/drop.js"></script>
+   
+  
 </body>
 </html>
